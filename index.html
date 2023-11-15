@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISRO Centres</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="isro-logo">
+        <h1><span>I</span>ndian <span>S</span>pace <span>R</span>easearch <span>O</span>rganization</h1>
+    </header>
+    <p class="sub-heading">Search for ISRO centers based on place, state and name</p>
+    <main>
+        <div class="input-container">
+            <div class="input-btn">
+                <input type="text" placeholder="Type here......." value="" id="input">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="sub-btn">
+                <button type="button" class="btn" id="city" onclick="handlefilter('city')">CITY</button>
+                <button type="button" class="btn" id="state" onclick="handlefilter('state')">STATE</button>
+                <button type="button" class="btn" id="center"onclick="handlefilter('name')">CENTER</button>
+            </div>
+        </div>
+        <div class="data-container">
+        </div>
+        
+    </main>
+    <script src="App.js"></script>
+</body>
+</html>
 
+
+ 
+            
